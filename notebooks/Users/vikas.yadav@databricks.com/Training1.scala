@@ -1,15 +1,11 @@
 // Databricks notebook source
 //dbutils.fs.mkdirs("dbfs:/FileStore/TestVik")
-//this is the cahange made outside the notbook!
+
 display(dbutils.fs.ls("dbfs:/FileStore/TestVik"))
 
 // COMMAND ----------
 
 display(dbutils.fs.ls("dbfs:/FileStore/tables/first.txt"))
-
-// COMMAND ----------
-
-
 
 // COMMAND ----------
 
