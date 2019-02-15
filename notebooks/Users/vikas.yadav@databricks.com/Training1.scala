@@ -1,6 +1,6 @@
 // Databricks notebook source
 //dbutils.fs.mkdirs("dbfs:/FileStore/TestVik")
-
+//this is the cahange made outside the notbook! Testing saw the outsider change now ignoring it
 display(dbutils.fs.ls("dbfs:/FileStore/TestVik"))
 
 // COMMAND ----------
@@ -18,10 +18,3 @@ dbutils.fs.cp(partition_path,"dbfs:/FileStore/tables/outputFile.csv")
 // MAGIC %sh #!bin/bash
 // MAGIC 
 // MAGIC apt-get install python-rdkit librdkit1 rdkit-data
-
-// COMMAND ----------
-
-
-
-// COMMAND ----------
-
